@@ -2893,7 +2893,7 @@ textarea.form-control-lg {
   overflow-anchor: none;
   transition: var(--bs-accordion-transition);
   border-radius: 20px;
-  background-color: black;
+  background-color: #2511D9;
   color: white; }
   @media (prefers-reduced-motion: reduce) {
     .accordion-button {
@@ -2929,7 +2929,7 @@ textarea.form-control-lg {
 .accordion-header {
   margin-bottom: 0;
   border-radius: 20px;
-  background-color: black;
+  background-color: #2511D9;
   color: white; }
 
 .accordion-item {

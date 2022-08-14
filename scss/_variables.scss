@@ -3,7 +3,7 @@
 $coloresTexto: (
     links: red,
     carrousel: blue,
-    nombrePag: #AD3319,
+    nombrePag: black,
     verde: forestgreen
 );
 
@@ -13,10 +13,11 @@ $coloresTexto: (
     }    
 }
 
-$fondoNomPag: #31A87D;
+$fondoNomPag: #14B2F8;
 $backgroundWS: whitesmoke;
 $bordeNomPag: 2px #C78F95;
 $colorBlanco: white;
+$colorFondo: rgb(242,241,247);
 $colorNegro: black;
 $colorHoverNav: rgb(20, 200, 220);
 $backgroundTitulo: rgb(168, 218, 218);
@@ -26,11 +27,12 @@ $colorNaranja: orange;
 $bordeMarina: powderblue;
 $gradienteContactoVert: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,32,121,1) 35%, rgba(0,212,255,1) 100%);
 $gradienteContactoHor: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,32,121,1) 35%, rgba(0,212,255,1) 100%);
+$gradienteFondo: linear-gradient(180deg, rgba(242,241,247,1) 12%, rgba(0,212,255,1) 100%, rgba(9,121,112,1) 100%);
 
 // Familias de fuente
 
 $fuenteBasker: 'Rubik', sans-serif;
-$fuentePlay: 'Playfair Display', serif;
+$fuentePlay: 'DM Sans', sans-serif;
 
 
 // Tamaños de fuente
@@ -91,3 +93,4 @@ $paddingNavLi: 10px 20px;
 
 $paddingWrapper: 0 2%;
 $gapWrapper: 10px 30px;
+$marginWrapper: 0 auto 0;

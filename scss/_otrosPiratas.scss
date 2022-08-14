@@ -1,7 +1,7 @@
 // Estilos de la página "Otros Piratas"
 
 .yonkoIntro {
-    @include textos ($radio20, 4%, $colorNegro, none);    
+    @include textos ($radio20, 4%, #2511D9, none);    
     padding: 10px;        
     color: $colorBlanco;
 }

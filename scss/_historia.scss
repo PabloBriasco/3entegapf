@@ -12,6 +12,16 @@
     }
 }
 
+.saga {
+    border-top: solid;
+    border-bottom: solid;
+    margin-bottom: 5%;
+}
+
+.isla {
+    border-bottom:solid;
+}
+
 
 // main de la página historia. Modificación para que la misma cubra la altura mínima del viewport
 @media screen and (max-width: 768px) { 

@@ -9,7 +9,7 @@
   .container-fluid {
     @include make-container();
     padding-right: 0;
-    padding-left: 0;
+    padding-left: 0;    
   }
 
   // Responsive containers that are 100% wide until a breakpoint

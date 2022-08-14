@@ -4,6 +4,13 @@
     text-decoration: underline;
 }
 
+.wrapperMugis {
+    margin: $marginWrapper;        
+    max-width: 1236px;   
+    background: $gradienteFondo; 
+    padding: $paddingWrapper;        
+}
+
 .mugiCard {
     @include textos ($radio20, 0, $colorNegro, $colorBlanco);
     font-family: $fuenteBasker;       

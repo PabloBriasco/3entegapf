@@ -1,6 +1,9 @@
 // Estilo de la página "index"
 
-.wrapperIndex {    
+.wrapperIndex {
+        margin: $marginWrapper;        
+        max-width: 1236px;   
+        background: $gradienteFondo; 
         padding: $paddingWrapper;
         display: grid;
         grid-template-areas:
