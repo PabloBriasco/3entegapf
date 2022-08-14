@@ -1,0 +1,21 @@
+// Estilos de la página "Historia"
+
+#construccion {
+    @include textos ($radio20, 4%, $backgroundWS, none);    
+    border-style: groove;    
+    align-items: center;
+
+    img {
+        height: 100px;
+        min-width: 100px;
+        border-radius: $radio20;
+    }
+}
+
+
+// main de la página historia. Modificación para que la misma cubra la altura mínima del viewport
+@media screen and (max-width: 768px) { 
+    .mainH {
+        height: 500px;
+    } 
+}
