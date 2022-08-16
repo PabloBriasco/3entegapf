@@ -269,7 +269,8 @@ h1 {
   text-align: center; }
 
 .geo, .frutas {
-  grid-area: geo; }
+  grid-area: geo;
+  margin-top: 5%; }
   .geo h2, .frutas h2 {
     border-bottom: solid; }
   .geo #oceanos, .frutas #oceanos, .frutas #frutas {
@@ -285,6 +286,9 @@ h1 {
     border-color: blue; }
   .geo .north, .frutas .north {
     max-width: 274px; }
+  .geo span, .frutas span {
+    text-decoration: underline;
+    font-weight: 600; }
 
 .frutas {
   grid-area: frutas; }
@@ -298,7 +302,7 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     max-width: 900px;
-    overflow-x: scroll;
+    overflow-x: auto;
     border-collapse: collapse;
     border-style: solid; }
     .frutas .tablaFrutas tr {
