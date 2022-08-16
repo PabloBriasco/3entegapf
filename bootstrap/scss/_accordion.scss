@@ -80,14 +80,14 @@
   }
 
   border-radius: 20px;    
-  background-color: #2511D9;    
+  background-color: #0e75cf;    
   color: white;
 }
 
 .accordion-header {
   margin-bottom: 0;
   border-radius: 20px;    
-  background-color: #2511D9;    
+  background-color: #0e75cf;    
   color: white;
 }
 
@@ -132,6 +132,9 @@
   padding: var(--#{$prefix}accordion-body-padding-y) var(--#{$prefix}accordion-body-padding-x);
   padding-left: 10px;
   padding-right: 10px;
+  .col-lg-4 {
+    padding-left: 0;
+  }
 }
 
 
