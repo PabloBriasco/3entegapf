@@ -242,7 +242,7 @@ h1 {
   background: linear-gradient(180deg, #f2f1f7 12%, #00d4ff 100%, #097970 100%);
   padding: 0 2%;
   display: grid;
-  grid-template-areas: "navi header header" "navi header header" "navi header header" "car car car" "car car car" "titulo titulo titulo" "main main aside" "main main aside" "footer footer footer";
+  grid-template-areas: "navi header header" "navi header header" "navi header header" "car car car" "car car car" "titulo titulo titulo" "main main aside" "main main aside" "geo geo geo" "frutas frutas frutas" "footer footer footer";
   gap: 10px 30px; }
 
 .fuenteCar {
@@ -268,20 +268,51 @@ h1 {
   color: white;
   text-align: center; }
 
+.geo, .frutas {
+  grid-area: geo; }
+  .geo h2, .frutas h2 {
+    border-bottom: solid; }
+  .geo #oceanos, .frutas #oceanos, .frutas #frutas {
+    border-radius: 20px;
+    margin: 6% 6%;
+    background-color: whitesmoke;
+    border-color: orange;
+    border-style: inset;
+    padding: 5px;
+    text-align: justify; }
+  .geo .blue, .frutas .blue, .geo .north, .frutas .north, .geo .east, .frutas .east {
+    border-style: solid;
+    border-color: blue; }
+  .geo .north, .frutas .north {
+    max-width: 274px; }
+
+.frutas {
+  grid-area: frutas; }
+  .frutas .tipoFruta {
+    border-bottom: solid;
+    margin-top: 20px;
+    margin-bottom: 20px; }
+  .frutas .textoFrutas {
+    text-align: justify; }
+
 @media screen and (max-width: 935px) {
   .wrapperIndex, .wrapperContacto {
-    grid-template-areas: "navi header header header" "car car car car" "titulo titulo titulo titulo"             "main main main main" "aside aside aside aside" "footer footer footer footer"; }
+    grid-template-areas: "navi header header header" "car car car car" "titulo titulo titulo titulo"             "main main main main" "aside aside aside aside" "geo geo geo geo" "frutas frutas frutas" "footer footer footer footer"; }
   .widthCar {
     width: 100%;
-    max-height: 400px; } }
+    max-height: 400px; }
+  .east p {
+    min-width: 300px; } }
 
 @media screen and (max-width: 630px) {
   .wrapperIndex, .wrapperContacto {
-    grid-template-areas: "header" "navi" "titulo" "main"        "footer"; } }
+    grid-template-areas: "header" "navi" "titulo" "main" "geo"    "frutas"     "footer"; } }
 
 @media screen and (max-width: 531px) {
   #sinopsis {
-    margin: 0; } }
+    margin: 0; }
+  .north {
+    max-width: none; } }
 
 #mugis p span {
   text-decoration: underline; }

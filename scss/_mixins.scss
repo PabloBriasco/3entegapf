@@ -9,3 +9,9 @@
     width: $ancho;
     height: $alto;
 }
+
+@mixin encabezado ($bordeInf, $margenTop, $margenInf) {
+    border-bottom: $bordeInf;
+    margin-top: $margenTop;
+    margin-bottom: $margenInf;
+}

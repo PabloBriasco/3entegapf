@@ -15,6 +15,8 @@
         "titulo titulo titulo"
         "main main aside"
         "main main aside"
+        "geo geo geo"
+        "frutas frutas frutas"
         "footer footer footer";
         gap: $gapWrapper;    
     }
@@ -51,6 +53,54 @@
         text-align: center;
     }
 
+    //Sección de geografía
+
+    .geo {
+        grid-area: geo;
+        h2 {
+            border-bottom: solid;
+        }
+
+        #oceanos {
+            @include textos ($radio20, 6% 6%, $backgroundWS, $colorNaranja);
+            border-style: inset;
+            padding: 5px;
+            text-align: justify;
+        }
+
+        .blue {
+            border-style: solid;
+            border-color: blue;
+        }
+
+        .north {
+            @extend .blue;
+            max-width: 274px;
+        }
+
+        .east {
+            @extend .blue;                   
+        }      
+    }
+
+    .frutas {
+        @extend .geo;
+        grid-area: frutas;
+
+        #frutas {
+            @extend #oceanos;
+        }
+
+        .tipoFruta {
+            @include encabezado (solid, 20px, 20px);            
+        }
+
+        .textoFrutas {
+            text-align: justify;
+        }
+
+    }
+
     // Media Queries
 
     @media screen and (max-width: 935px){
@@ -62,6 +112,8 @@
             "titulo titulo titulo titulo"            
             "main main main main"
             "aside aside aside aside"
+            "geo geo geo geo"
+            "frutas frutas frutas"
             "footer footer footer footer";
         }
     
@@ -69,6 +121,13 @@
             width: 100%;
             max-height: 400px;    
         } 
+
+        .east {
+            p {
+                min-width: 300px;
+            }
+
+        }
     }
 
     @media screen and (max-width: 630px) {
@@ -78,7 +137,9 @@
            "header"
            "navi"
            "titulo"
-           "main"       
+           "main"
+           "geo"   
+           "frutas"    
            "footer";
         }
     }
@@ -87,6 +148,10 @@
 
         #sinopsis {
             margin: 0;       
+        }
+
+        .north {            
+            max-width: none;
         }
     }
 

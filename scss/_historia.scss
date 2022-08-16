@@ -19,9 +19,7 @@
 }
 
 .isla {
-    border-bottom:solid;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    @include encabezado (solid, 20px, 20px);  
 }
 
 .textoIsla {
