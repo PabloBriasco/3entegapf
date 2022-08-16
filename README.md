@@ -5,11 +5,11 @@ Contenido:
 
 ||Historia
 
-Se completa el contenido de la página historia, colocando un encabezado, un párrafo y tres imágenes por sección. Se linkean referencias a las demás páginas.
+Se completa el contenido de la página historia, colocando un encabezado, un párrafo y tres imágenes por sección. Se linkean referencias a las demás páginas. Se realizó con grilla de Bootstrap.
 
 ||Index
 
-Se agregan detalles del mundo de One Piece. Composición Geográfica y data sobre las frutas del diablo. Se linkean referencias a las demás páginas.
+Se agregan detalles del mundo de One Piece. Composición Geográfica y data sobre las frutas del diablo. Se linkean referencias a las demás páginas. Se usa grilla de Bootstrap y etiqueta de table para las frutas.
 
 
 

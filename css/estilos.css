@@ -294,6 +294,19 @@ h1 {
     margin-bottom: 20px; }
   .frutas .textoFrutas {
     text-align: justify; }
+  .frutas .tablaFrutas {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 900px;
+    overflow-x: scroll;
+    border-collapse: collapse;
+    border-style: solid; }
+    .frutas .tablaFrutas tr {
+      border-style: solid;
+      border-width: 2px; }
+      .frutas .tablaFrutas tr td {
+        border-style: solid;
+        border-width: 2px; }
 
 @media screen and (max-width: 935px) {
   .wrapperIndex, .wrapperContacto {
